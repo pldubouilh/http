@@ -330,6 +330,9 @@ status_codes! {
     /// 102 Processing
     /// [[RFC2518](https://tools.ietf.org/html/rfc2518)]
     (102, PROCESSING, "Processing");
+    /// 103 Early Hints 
+    /// [[RFC8297](https://tools.ietf.org/html/rfc8297)]
+    (103, EARLY_HINTS, "Early Hints");
 
     /// 200 OK
     /// [[RFC7231, Section 6.3.1](https://tools.ietf.org/html/rfc7231#section-6.3.1)]
